@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "email": "nemo@email.com",
+      "name": "Nemo",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 1
+    },
+    {
+      "email": "test@email.com",
+      "name": "test",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 2
+    },
+    {
+      "email": "test1@email.com",
+      "name": "blah",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 3
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Carbonara",
+      "image": "/public/img/1.avif",
+      "time": 20,
+      "description": "A vegetarian twist on the classic Italian pasta dish with eggs, cheese, and vegetarian bacon.",
+      "vegan": false
+    },
+    {
+      "id": "2",
+      "title": "Veg Stir-Fry",
+      "image": "/public/img/2.avif",
+      "time": 25,
+      "description": "A quick and healthy vegetarian stir-fry with fresh vegetables and tofu.",
+      "vegan": false
+    },
+    {
+      "id": "3",
+      "title": "Veg Alfredo",
+      "image": "/public/img/3.avif",
+      "time": 30,
+      "description": "Creamy pasta with grilled vegetarian chicken and a rich Alfredo sauce.",
+      "vegan": false
+    },
+    {
+      "id": "4",
+      "title": "Mushroom Risotto",
+      "image": "/public/img/2.avif",
+      "time": 40,
+      "description": "A comforting vegetarian Italian rice dish with sautéed mushrooms and parmesan cheese.",
+      "vegan": false
+    },
+    {
+      "id": "5",
+      "title": "Veg Lentil Soup",
+      "image": "/public/img/5.avif",
+      "time": 35,
+      "description": "A hearty and nutritious vegetarian soup made with lentils and a blend of spices.",
+      "vegan": true
+    },
+    {
+      "id": "6",
+      "title": "Grilled Mushrooms",
+      "image": "/public/img/6.avif",
+      "time": 15,
+      "description": "Flavorful grilled Portobello mushrooms with a lemon and herb marinade.",
+      "vegan": true
+    },
+    {
+      "id": "7",
+      "title": "Roasted Veg Salad",
+      "image": "/public/img/7.avif",
+      "time": 30,
+      "description": "A colorful vegetarian salad featuring roasted vegetables and a balsamic vinaigrette.",
+      "vegan": true
+    },
+    {
+      "id": "8",
+      "title": "Veggie Tacos",
+      "image": "/public/img/8.avif",
+      "time": 25,
+      "description": "Tasty vegetarian tacos with seasoned plant-based meat and fresh toppings.",
+      "vegan": true
+    },
+    {
+      "id": 85,
+      "title": "Test Recipe",
+      "image": "https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?q=80&w=2344&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "time": "20",
+      "description": "very delicious",
+      "vegan": true
+    }
+  ]
+}
