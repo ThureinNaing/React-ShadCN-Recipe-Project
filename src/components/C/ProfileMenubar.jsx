@@ -35,11 +35,11 @@ export default function ProfileMenubar() {
 				</MenubarTrigger>
 				<MenubarContent>
 					<MenubarItem>
-						<p className="font-semibold">{user.name}</p>{" "}
+						<p className="font-semibold">{user?.name}</p>{" "}
 						<MenubarShortcut>⌘</MenubarShortcut>
 					</MenubarItem>
 					<MenubarItem>
-						<p className="text-muted-foreground">{user.email}</p>
+						<p className="text-muted-foreground">{user?.email}</p>
 					</MenubarItem>
 					<MenubarSeparator />
 					<MenubarSeparator />

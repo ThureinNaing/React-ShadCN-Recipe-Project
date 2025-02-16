@@ -1,15 +1,14 @@
 {
-"compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-    "@/*": ["./src/*"]
-    },
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "jsx": "preserve",
-    "resolveJsonModule": true
-},
-"include": ["src/**/*"],
-"exclude": ["node_modules", "dist"]
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"jsx": "preserve",
+		"resolveJsonModule": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
 }
-
